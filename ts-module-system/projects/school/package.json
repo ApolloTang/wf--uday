@@ -1,0 +1,22 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Apollo Tang",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.publish.json",
+    "clean": "rm -fr ./dist"
+  }
+}
